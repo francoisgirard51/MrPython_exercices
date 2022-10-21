@@ -12,7 +12,6 @@ assert initialise("abracadabra") == "***********"
 assert initialise("bonjour") == "*******"
 assert initialise("a") == "*"
 
-# ---
 # Instructions:
 # We then want to be able to examine whether player 2 has found the word
 # to guess. Give a definition of the function has_won which, given a candidate
@@ -33,7 +32,6 @@ assert has_won("***********") == False
 assert has_won("a*ra*a*a*ra") == False
 assert has_won("abracadabra") == True
 
-# ---
 # Instructions:
 # The update function represents the behavior of player 1: depending on a
 # candidate word, a letter proposed by player 2 and the word to find, the
@@ -64,7 +62,6 @@ assert update("a**a*a*a**a","b","abracadabra") == 'ab*a*a*ab*a'
 assert update("a**a*a*a**a","e","abracadabra") == 'a**a*a*a**a'
 assert update("***********","e","abracadabra") == '***********'
 
-# ---
 # Instructions:
 # We now consider that player 2 has a strategy concerning the order in which
 # he proposes letters: this order is defined in the form of a character string
