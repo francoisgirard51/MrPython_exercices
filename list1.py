@@ -61,7 +61,7 @@ def Sunday_11_November()-> List[int]:
 
 # Other solution
 # def Sunday_11_November()-> List[int]:
-#    """"Préconditions: N/A
+#    """"Preconditions: N/A
 #    """
 #    return [year for year in range(1919, 2022) \
 #        if day_of_the_week(11, 11, year) == 'dimanche']
