@@ -3,7 +3,7 @@
 # returns the boolean True if n is a leap year, False otherwise.
 def is_a_leap_year(year : int) -> bool:
     """Preconditions: year is a positive integer
-    returns True if year est bissextile (can be divided by 4, 100 et 400), False otherwise
+    returns True if it is a leap year (can be divided by 4, 100 et 400), False otherwise
     """
     return (((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0))
 
