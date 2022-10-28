@@ -16,7 +16,7 @@
 # largest and an integer e, constructs the ordered list that contains the same values as L and
 # the value e, interleaved at the appropriate place.
 def interleave(L:List[int], e:int)->List[int]:
-    """Préconditions: len(l)>0 and l is ordered from smallest to largest and e is an integer 
+    """Preconditions: len(l)>0 and l is ordered from smallest to largest and e is an integer 
     Returns the ordered list that contains the same values as L and the value e, interleaved
     at the appropriate place.
     """
@@ -106,7 +106,7 @@ assert got_a_pair([('club', 11), ('club', 10), \
 # character string col corresponding to one of the four possible colors, returns the list of
 # the heights of the cards of this color contained in D.
 def extract_col_height(D:List[Tuple[str, int]], col:str) -> List[int]:
-    """Préconditions: len(D) == 5 and col is a col == 'heart' or col == 'diamond' or \
+    """Preconditions: len(D) == 5 and col is a col == 'heart' or col == 'diamond' or \
     col == 'spade' or col == 'club'
     returns the list of the heights of the cards of this color contained in D.
     """
